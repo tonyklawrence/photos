@@ -1,16 +1,7 @@
 <h1>Editing category</h1>
 
 <% form_for(@category) do |f| %>
-  <%= f.error_messages %>
-
-  <p>
-    <%= f.label :parent_id %><br />
-    <%= f.text_field :parent_id %>
-  </p>
-  <p>
-    <%= f.label :name %><br />
-    <%= f.text_field :name %>
-  </p>
+  <%= render :partial => 'form', :locals => { :f => f } %>
   <p>
     <%= f.submit 'Update' %>
   </p>
