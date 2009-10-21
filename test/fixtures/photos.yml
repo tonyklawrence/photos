@@ -1,0 +1,55 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+photo_1:
+  id: 1
+  filename: train.jpg
+  thumbnail: train_t.jpg
+  description: My ride to work
+
+photo_2:
+  id: 2
+  filename: lighthouse.jpg
+  thumbnail: lighthouse_t.jpg
+  description: I take dates here all the time
+
+photo_3:
+  id: 3
+  filename: gargoyle.jpg
+  thumbnail: gargoyle_t.jpg
+  description: My paper weight
+
+photo_4:
+  id: 4
+  filename: cat.jpg
+  thumbnail: cat_t.jpg
+  description: My pet
+
+photo_5:
+  id: 5
+  filename: cappucino.jpg
+  thumbnail: cappucino_t.jpg
+  description: Life juice
+
+photo_6:
+  id: 6
+  filename: building.jpg
+  thumbnail: building_t.jpg
+  description: My office
+
+photo_7:
+  id: 7
+  filename: bridge.jpg
+  thumbnail: bridge_t.jpg
+  description: A place I'd like to visit
+
+photo_8:
+  id: 8
+  filename: bear.jpg
+  thumbnail: bear_t.jpg
+  description: Day at the zoo
+
+photo_9:
+  id: 9
+  filename: baskets.jpg
+  thumbnail: baskets_t.jpg
+  description: Where I store my fruit

@@ -1,0 +1,14 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+<% @categories = [ 'People', 'Animals', 'Places', 'Things', 'Friends', 'Family'] %>
+
+category_1:
+  id: 1
+  name: All
+
+<% 2.upto(7) do |i| %>
+category_<%= i %>:
+  id: <%= i %>
+  parent_id: 1
+  name: <%= @categories[i-2] %>
+<% end %>

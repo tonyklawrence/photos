@@ -1,0 +1,24 @@
+<h1>Editing slide</h1>
+
+<% form_for(@slide) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :position %><br />
+    <%= f.text_field :position %>
+  </p>
+  <p>
+    <%= f.label :photo_id %><br />
+    <%= f.text_field :photo_id %>
+  </p>
+  <p>
+    <%= f.label :slideshow_id %><br />
+    <%= f.text_field :slideshow_id %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @slide %> |
+<%= link_to 'Back', slides_path %>
