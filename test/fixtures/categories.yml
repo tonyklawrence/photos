@@ -9,6 +9,6 @@ category_1:
 <% 2.upto(7) do |i| %>
 category_<%= i %>:
   id: <%= i %>
-  parent_id: 1
+  parent_id: <%= i < 6 ? 1 : 2 %>
   name: <%= @categories[i-2] %>
 <% end %>
